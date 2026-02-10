@@ -174,7 +174,7 @@ RJFF-254-NW-209 10.107.254.209/32
 RJFF-254-NW-217 10.107.254.217/32
 RJFF-254-WS-210 10.107.254.210/32
 RJFF-254-WS-218 10.107.254.218/32
-RJFF-190-(NW|WS)-x 10.107.190.254/32
+RJFF-190-(NW|WS)-x 10.107.190.x/32
 
 RJFF-HOST-G = RJFF-190-WS-1, 2
 RJFF-NIN-G = RJFF-190-WS-11, 14, 17
@@ -188,16 +188,16 @@ RJFF-189-NW-11 10.107.189.11/32
 
 
 ## RJFF-Untrust-Trust-137
-source-address RJTZ-190-WS-239
-destination-address RJFF-190-NW-238
+source-address RJTZ-190-WS-239 = 10.101.190.239 (補助コンソール)
+destination-address RJFF-190-NW-238 = 10.107.190.238
 destination-address RJFF-190-NW-239
 destination-address RJFF-190-NW-237
 application P137-APP = junos-ssh, TCP-62001-62003, TCP-62020, TCP-62022, TCP-3389
 
 ## RJFF-Untrust-Trust-139
-source-address RJTZ-190-WS-142
+source-address RJTZ-190-WS-142 = 10.101.190.142 (運用諸元評価用端末)
 source-address RJTZ-190-WS-143
-destination-address RJFF-190-WS-150
+destination-address RJFF-190-WS-150 = 10.107.190.150 (運用諸元管理装置)
 application P139-APP = TCP-1521
 
 ## RJFF-Untrust-Trust-132
@@ -216,7 +216,7 @@ application any
 
 ## RJFF-Untrust-Trust-002
 source-address RJFF-OT-WS-G
-destination-address RJFF-190-WS-15
+destination-address RJFF-190-WS-15 = 10.107.190.15 (仮想化サーバー２（プログラム等管理サーバー）)
 application any
 
 ## RJFF-Untrust-Trust-003
@@ -242,7 +242,7 @@ destination-address RJFF-HOST-G
 application HOST-HOST = TCP-64300
 
 ## RJFF-Untrust-Trust-005
-source-address RJNA-190-WS-129
+source-address RJNA-190-WS-129 = 10.102.190.129 (遠隔操作卓)
 source-address RJTZ-NETWORK
 destination-address RJFF-NETWORK
 application FTP = TCP-20, junos-ftp
@@ -250,8 +250,8 @@ application FTP = TCP-20, junos-ftp
 ## RJFF-Untrust-Trust-006
 source-address RJFF-OT-WS-G
 source-address RJTZ-189-WS-1
-destination-address RJFF-190-WS-102
-destination-address RJFF-NIN-G
+destination-address RJFF-190-WS-102 = 10.107.190.102 (WEBS（ＤＢ）サーバ)
+destination-address RJFF-NIN-G (仮想化サーバー１，２（認証サーバ１，2）)
 application DNS = junos-dns-tcp, junos-dns-udp
 
 ## RJFF-Untrust-Trust-007
@@ -284,9 +284,9 @@ destination-address RJFF-NIN-G
 application any
 
 ## RJFF-Untrust-Trust-009
-source-address RJTZ-190-WS-140 - 143
-source-address RJNA-190-WS-129
-destination-address RJFF-190-WS-103 - 113
+source-address RJTZ-190-WS-140 - 143 = 10.101.190.140 - 143
+source-address RJNA-190-WS-129 = 10.102.190.129 (遠隔操作卓)
+destination-address RJFF-190-WS-103 - 113 = 10.107.190.103 - 113 (代替運用等サーバー１，２)
 application any
 
 ## RJFF-Untrust-Trust-009a
@@ -302,7 +302,7 @@ application junos-smb
 
 ## RJFF-Untrust-Trust-011
 source-address RJFF-OT-WS-G
-source-address RJTZ-189-WS-1
+source-address RJTZ-189-WS-1 = 10.101.189.1 (ＷＥＢＳ（ＡＰ）サーバ)
 destination-address RJFF-NETWORK
 application MS-DS = junos-netbios-session, TCP-12520
 
@@ -410,7 +410,7 @@ destination-address RJFF-190-WS-137, 138, 148, 149, 20
 application any
 
 ## RJFF-Untrust-Trust-030
-source-address RJTZ-190-WS-20
+source-address RJTZ-190-WS-20 = 10.101.190.20 (電算機ＷＳ)
 destination-address RJFF-190-WS-20
 application any
 
@@ -446,13 +446,13 @@ destination-address RJFF-190-WS-15
 application P110-APP = TCP-10080, TCP-8530, TCP-8531
 
 ## RJFF-Untrust-Trust-111
-source-address RJTZ-190-WS-100, 101, 110, 111
+source-address RJTZ-190-WS-100, 101, 110, 111 (業務処理用サーバ１，２、ノータム処理装置)
 destination-address RJFF-190-WS-100 - 113
 application P111-APP = TCP-20, junos-ftp, junos-ssh, junos-rsh
 
 ## RJff-Untrust-Trust-112
-source-address RJTZ-190-WS-100, 101, 142, 143, 140, 141
-destination-address RJFF-190-WS-121, 122
+source-address RJTZ-190-WS-100, 101, 142, 143, 140, 141 (運用諸元評価用端末１，２、連接試験用端末A, B)
+destination-address RJFF-190-WS-121, 122 = 10.107.190.121, 122 (ＡＴＳＤＢ１，２系)
 application P112-APP = TCP-20, junos-ftp, junos-ssh
 
 ## RJFF-Untrust-Trust-113
@@ -471,8 +471,8 @@ destination-address RJFF-190-WS-120, 121, 122
 application P117-APP = TCP-29003, UDP-29003
 
 ## RJFF-Untrust-Trust-118
-source-address RJTZ-190-WS-21, 22
-destination-address RJFF-190-WS-123
+source-address RJTZ-190-WS-21, 22  = 10.101.190.21, 22 (サーバー管理コンソール１，２)
+destination-address RJFF-190-WS-123 = 10.107.190.123 (iStorage)
 application P118-APP = HTTP
 
 ## RJFF-Untrust-Trust-131
@@ -492,12 +492,12 @@ application P134-APP = TCP-29010, UDP-29010
 
 ## RJFF-Untrust-Trust-138
 source-address RJTZ-190-WS-142, 143, 140, 141
-destination-address RJFF-190-WS-21, 22
+destination-address RJFF-190-WS-21, 22 = 10.107.190.21, 22 (サーバー管理コンソール１，２)
 application P138-APP = TCP-3389
 
 ## RJFF-Untrust-Trust-140
 source-address RJFF-OT-WS-G
-destination-address RJFF-190-WS-200, 210
+destination-address RJFF-190-WS-200, 210 = 10.107.190.200, 210 (Oracle Database)
 application P140-APP = TCP-1521
 
 ## RJFF-Untrust-Trust-141
@@ -509,13 +509,13 @@ application UDP-ANY
 application PING
 
 ## RJFF-Untrust-Trust-142
-source-address RJTZ-190-WS-21, 22, 142, 143, 140, 141, 136
+source-address RJTZ-190-WS-21, 22, 142, 143, 140, 141, 136 = 10.101.190.136 (ＦＳ２)
 destination-address any
 application any
 
 ## RJFF-Untrust-Trust-143
-source-address RJTZ-190-WS-6, 7, 8
-destination-address RJFF-190-WS-6
+source-address RJTZ-190-WS-6 - 8 (システム監視装置Ａ)
+destination-address RJFF-190-WS-6 (システム監視装置Ｂ（SV）)
 application any
 
 ## RJFF-Untrust-Trust-992
@@ -678,7 +678,7 @@ application junos-rsh
 
 ## RJFF-DMZ-Trust-202
 source-address any
-destination-address RJFF-190-WS-102
+destination-address RJFF-190-WS-102 = 10.107.190.102 (WEBS（ＤＢ）サーバ)
 application junos-ssh
 application TCP-20
 application junos-ftp
@@ -691,14 +691,14 @@ application TCP-12520
 
 ## RJFF-DMZ-Trust-204
 source-address RJFF-189-WS-1
-destination-address RJFF-190-WS-13, 21, 22
+destination-address RJFF-190-WS-13, 21, 22 (仮想化サーバー２（計算機）、サーバー管理コンソール１，２)
 application P204-APP = junos-smb
 application SSH
 application PING
 
 ## RJFF-DMZ-Trust-207
 source-address RJFF-189-WS-1
-destination-address RJFF-190-WS-11, 14
+destination-address RJFF-190-WS-11, 14 (仮想化サーバー１，２（認証サーバ１，２）)
 application any
 
 ## RJFF-DMZ-Trust-210

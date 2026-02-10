@@ -1,14 +1,14 @@
 
 | アクター                         | APT41                                                                                                                                                                                                                                                                              | BlackTech                                   | Salt Typhoon                 |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- | ---------------------------- |
-| **別名**                       | Wicked Panda<br>Blass Typhoon<br>BARIUM                                                                                                                                                                                                                                            | Palmerworm                                  |                              |
+| **別名**                       | Wicked Panda<br>Blass Typhoon<br>BARIUM                                                                                                                                                                                                                                            | Palmerworm                                  | Earth Manitcore              |
 | **母体**                       | 中国政府                                                                                                                                                                                                                                                                               | 中国語圏                                        | 中国国家支援                       |
 | **目的**                       | サイバースパイ、金銭                                                                                                                                                                                                                                                                         | サイバースパイ                                     | サイバースパイ                      |
-| **標的**                       | 世界各国                                                                                                                                                                                                                                                                               | 台湾、日本、米国等                                   | 米国、世界各国                      |
-| **対象**                       | 医療、通信、技術、金融、教育等                                                                                                                                                                                                                                                                    | メディア、建設、エンジニアリング、電気、金融等                     | 通信、防衛、政府、交通、重要インフラ           |
+| **対象国**                      | 世界各国                                                                                                                                                                                                                                                                               | 台湾、日本、米国等                                   | 米国、世界各国                      |
+| **標的**                       | 医療、通信、技術、金融、教育等                                                                                                                                                                                                                                                                    | メディア、建設、エンジニアリング、電気、金融等                     | 通信、防衛、政府、交通、重要インフラ等          |
 | **Reconnaissance**           | T1595.002, T1595.003, ~~T1596.005, T1593.002, T1594~~                                                                                                                                                                                                                              |                                             | T1590.004                    |
 | ~~**Resource Development**~~ | ~~T1583.007, T1586.003, ==T1588.003==, ==T1588.002==~~                                                                                                                                                                                                                             | ~~==T1588.003==, T1588.004, ==T1588.002==~~ | ~~T1587.001, ==T1588.002==~~ |
-| **Initial Access**           | ==T1190==, ~~T1133~~, ~~==T1566.001==~~, T1195.002, T1078                                                                                                                                                                                                                          | ==T1190==, ~~==T1566.001==, T1566.002~~     | ==T1190==                    |
+| **Initial Access**           | ==T1190==, ~~T1133~~, ~~==T1566.001==~~, ~~T1195.002~~, T1078                                                                                                                                                                                                                      | ==T1190==                                   | ==T1190==                    |
 | **Execution**                | T1059.007, T1059.001, T1059.004, T1059.003, ==T1203==, T1053.005, T1569.002, T1047                                                                                                                                                                                                 | ==T1203==, T1106, ~~T1204.002, T1204.001~~  |                              |
 | **Persistence**              | T1098.007, T1197, ==T1547.001==, T1037, T1036.001, T1543.003, ~~T1546.008~~, ~~T1133~~, T1574.001, T1574.006, T1112, T1542.003, T1053.005, T1505.003, T1078                                                                                                                        | ==T1574.001==                               | T1098.004, T1136             |
 | **Privilege Escalation**     | T1134, T1098.007, ==T1547.001==, T1037, T1543.003, T1484.001, ~~T1546.008~~, T1574, T1574.001, T1574.006, T1055, T1053.005, T1078                                                                                                                                                  | ==T1574.001==                               | T1098.004                    |
@@ -18,7 +18,7 @@
 | **Lateral Movement**         | ~~T1570~~, T1021.001, T1021.002, T1550.002                                                                                                                                                                                                                                         | ==T1021.004==                               | ==T1021.004==                |
 | **Collection**               | ~~T1560.003~~, T1560.001, T1119, ~~T1213.003~~, T1213.006, T1005, T1074.001, T1056.001                                                                                                                                                                                             |                                             | T1602.002                    |
 | **Command and Control**      | T1071.004, T1071.002, T1071.001, ~~T1001.003~~, ~~T1568.002~~, T1573.002, ~~T1008~~, T1105, T1104, T1090, T1102, ~~T1102.001~~                                                                                                                                                     |                                             | T1572                        |
-| **Exfiltration**             | T1030, ==T1048.003==,  T1041, T1567, T1567.002                                                                                                                                                                                                                                     |                                             | ==T1048.003==                |
+| **Exfiltration**             | T1030, ==T1048.003==, T1041, T1567, T1567.002                                                                                                                                                                                                                                      |                                             | ==T1048.003==                |
 | **Impact**                   | T1486, ~~T1496.001~~                                                                                                                                                                                                                                                               |                                             |                              |
 
 # Reconnaisance
@@ -86,35 +86,35 @@ APT41 has configured payloads to load via LD_PRELOAD.
 APT41 used a malware variant called GOODLUCK to steal credentials.
 ### T1542.003: Pre-OS Boot: Bootkit
 APT41 deployed MBR bootkits.
-### T1053.005
+### [[#T1053.005 Scheduled Task/Job Scheduled Task]]
 ### T1505.003: Server Software Component: Web Shell
 APT41 used web shells for persistence.
-### T1078
+### [[#T1078 Valid Accounts]]
 
 # Privilege Escalation
 ### T1134: Access Token Manipulation
 APT41 used a ConfuserEX obfuscated BADPOTATO exploit to abuse named-pipe impersonation for local `NT AUTHORITY\SYSTEM` privilege escalation.
-### T1098.007
-### T1098.004
-### T1547.001
-### T1037
-### T1543.003
+### [[#T1098.007 Account Manipulation Additional Local or Domain Groups]]
+### [[#T1098.004 Account Manipulation SSH Authorized Keys]]
+### [[#T1547.001 Boot or Logon Autostart Execution Registry Run Keys / Startup Folder]]
+### [[#T1037 Boot or Logon Initialization Scripts]]
+### [[#T1543.003 Create or Modify System Process Windows Service]]
 ### T1484.001: Domain or Tenant Policy Modification: Group Policy Modification
 APT41 used scheduled tasks created via GPOs.
-### T1574.001
-### T1574.006
-### T1053.005
-### T1078
+### [[#T1574.001 Hijack Execution Flow DLL]]
+### [[#T1574.006 Hijack Execution Flow Dynamic Linker Hijacking]]
+### [[#T1053.005 Scheduled Task/Job Scheduled Task]]
+### [[#T1078 Valid Accounts]]
 
 # Defense Evasion
-### T1134
-### T1197
+### [[#T1134 Access Token Manipulation]]
+### [[#T1197 BITS Jobs]]
 ### T1140: Deobfuscate/Decode Files or Information
 APT41 used the DUSTPAN loader to decrypt embeded payloads.
 ### T1480.001: Environmental Keying
 APT41 has encrypted payloads using DPAPI and volume serial number.
-### T1574.001
-### T1574.006
+### [[#T1574.001 Hijack Execution Flow DLL]]
+### [[#T1574.006 Hijack Execution Flow Dynamic Linker Hijacking]]
 ### T1562.004: Impair Defences: Disable or Modify System Firewall
 Salt Typhoon has made changes to ACL and loopback address.
 ### T1562.006: Impair Defences: Indicator Blocking
@@ -140,7 +140,7 @@ APT41
 APT41
 ### T1027.002: Obfuscated Files or Information: Software Packing
 APT41
-### T1542.003
+### [[#T1542.003 Pre-OS Boot Bootkit]]
 ### T1055: Process Injection
 APT41 malware TIDYELF loaded the main WINTERLOVE component by injecting.
 ### T1014: Rootkit
@@ -151,7 +151,7 @@ APT41
 APT41 used .chm files for targeting.
 ### T1218.011: System Binary Proxy Execution: Rundll32
 APT41 has used rundll32.exe to execute a loader.
-### T1078
+### [[#T1078 Valid Accounts]]
 
 # Credential Access
 ### T1110: Brute Force
@@ -221,7 +221,7 @@ APT41 collected data from Oracle databases using SQLULDR2.
 APT41 has uploaded files and data.
 ### T1074.001: Data Staged: Local Data Staging
 APT41
-### T1056.001
+### [[#T1056.001 Keylogging]]
 
 # Command and Control
 ### T1071.004: Application Layer Protocol: DNS
