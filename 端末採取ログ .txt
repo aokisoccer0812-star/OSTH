@@ -1,0 +1,36 @@
+■RJFFAD01_20251008.txt
+０．OSバージョン
+systeminfo
+
+１．arpログ
+arp -a
+
+２．プロセス一覧
+tasklist /v
+
+３．セッション情報
+netstat -ano
+
+４．サービス一覧
+sc query type=all state=all
+
+■RJFFAD01_20251008_EventLog.zip
+５．イベントログ
+D:\EventLog
+右クリックメニューの「送る」から「圧縮フォルダー」
+
+■RJFFAD01_20251008_Logs.zip
+６．Poweshell等のログ
+C:\Windows\System32\winevt\Logs
+仮想化サーバ２にコピーしてから右クリックメニューの「送る」から「圧縮フォルダー」
+
+
+
+RJFFEVA1
+RJFFEVA2
+RJFFWS
+RJFFFACE
+RJFFVM01
+RJFFAD01
+
+

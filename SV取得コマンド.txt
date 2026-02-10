@@ -1,0 +1,106 @@
+■ffap_20251008.txt
+１．OSバージョン
+$ cat /etc/os-release
+
+２．arpテーブル
+$ arp -a
+
+３．ログイン履歴
+$ last
+
+４．プロセス一覧
+$ ps -ef 
+
+５．セッション情報
+$ netstat -naop
+
+６．サービス一覧
+$ sudo systemctl list-units --type=service
+
+■ffap_20251008_varlog.tgz
+cd /var
+sudo tar czvf ffap_20251008_varlog.tgz log
+
+ls $PWD/ffap_20251008_varlog.tgz
+sudo rm -f /var/ffap_20251008_varlog.tgz
+
+■ffap_20251008_Serverlog.tgz
+cd /opt/oracle/user_projects/domains/fadp_domain/servers/AdminServer/
+tar czvf ffap_20251008_Serverlog.tgz logs
+
+ls $PWD/ffap_20251008_Serverlog.tgz
+rm -f ffap_20251008_Serverlog.tgz
+
+
+
+
+
+
+■ffdb_20251008.txt
+１．OSバージョン
+$ cat /etc/os-release
+
+２．arpテーブル
+$ arp -a
+
+３．ログイン履歴
+$ last
+
+４．プロセス一覧
+$ ps -ef 
+
+５．セッション情報
+$ netstat -naop
+
+６．サービス一覧
+$ sudo systemctl list-units --type=service
+
+■ffdb_20251008_varlog.tgz
+cd /var
+sudo tar czvf ffdb_20251008_varlog.tgz log
+
+ls $PWD/ffdb_20251008_varlog.tgz
+sudo rm -f /var/ffdb_20251008_varlog.tgz
+
+■ffdb_20251008_dblog.tgz
+cd /home/oracle/app/oracle/product/19.3.0/dbhome_1/rdbms
+tar czvf ffdb_20251008_dblog.tgz log
+
+ls $PWD/ffdb_20251008_dblog.tgz
+rm -f ffdb_20251008_dblog.tgz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[fadp@ffap ~]$ ssh -V 2>> /tmp/ffdb_20250925.txt
+
+[fadp@ffap ~]$ telnet 2>> /tmp/ffdb_20250925.txt
+
+[fadp@ffap ~]$ sudo ls -lR /var/log >> /tmp/ffdb_20250925.txt
+
+
+find / -name DefaultAuditRecorder.log
+
+
+[root@ffap ~]# cd /var/log
+[root@ffap log]# tar czvf audit_ffap.tgz audit/
+
+
+
+[oracle@ffap ~]$ cd /opt/oracle/user_projects/domains/fadp_domain/servers/AdminServer/logs
+[oracle@ffap logs]$ tar czvf access_ffap.tgz access*
+[oracle@ffap logs]$ ls $PWD/access_ffap.tgz
+/opt/oracle/user_projects/domains/fadp_domain/servers/AdminServer/logs/access_ffap.tgz
