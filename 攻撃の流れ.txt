@@ -1,0 +1,309 @@
+攻撃の流れ
+
+対象環境には、インターネットと接続されたファイアウォール（Juniper SRX320）を経由して、
+Webサーバ（Oracle WebLogic Server）および各種業務サーバが接続されている構成となっている。
+
+攻撃者は以下の手順で侵入を試みる可能性がある。
+
+フェーズ1：偵察（Reconnaissance）
+
+該当MITRE：
+
+T1595.002 Vulnerability Scanning
+T1595.003 Wordlist Scanning
+T1593.002 Search Engines
+T1596.005 Scan Databases
+
+攻撃内容
+
+攻撃者はまず、公開されているIPアドレスに対してスキャンを実施する。
+
+対象：
+
+・FW（Juniper SRX320）
+・Webサーバ（Oracle WebLogic Server）
+・VPN
+・RDP
+
+実施内容：
+
+・ポートスキャン（T1595）
+
+例：
+
+nmap -sV -Pn target-ip
+
+
+確認：
+
+・443 HTTPS
+・7001 WebLogic
+・1521 Oracle
+
+さらに：
+
+検索エンジンを利用（T1593）
+
+例：
+
+Shodan
+
+検索：
+
+weblogic
+
+
+→ 脆弱なWebLogic検出
+
+フェーズ2：リソース準備（Resource Development）
+
+該当MITRE：
+
+T1588.002 Tool
+T1588.003 Code Signing Certificates
+
+攻撃者は以下を準備：
+
+・Exploitツール
+・マルウェア
+・WebShell
+
+例：
+
+WebLogic exploit
+
+フェーズ3：初期侵入（Initial Access）
+
+該当MITRE：
+
+T1190 Exploit Public-Facing Application
+
+最も可能性が高い侵入口
+
+Webサーバ：
+
+Oracle WebLogic Server 14.1.1
+
+理由：
+
+公開サーバ
+
+攻撃：
+
+WebLogic exploit
+
+成功すると：
+
+WebShell設置
+
+MITRE：
+
+T1505.003 Web Shell
+
+フェーズ4：実行（Execution）
+
+該当MITRE：
+
+T1059.004 Unix Shell
+T1059.001 PowerShell
+
+攻撃者はWebShell経由で
+
+コマンド実行
+
+例：
+
+Linux：
+
+bash
+
+
+Windows：
+
+powershell
+
+フェーズ5：永続化（Persistence）
+
+該当MITRE：
+
+T1136 Local Account
+T1053.005 Scheduled Task
+
+攻撃者は
+
+バックドア作成
+
+例：
+
+Linux：
+
+useradd backup
+
+
+Windows：
+
+net user backup Password /add
+
+フェーズ6：権限昇格（Privilege Escalation）
+
+該当MITRE：
+
+T1055 Process Injection
+T1543 Windows Service
+
+攻撃者：
+
+root権限取得
+
+フェーズ7：認証情報取得（Credential Access）
+
+該当MITRE：
+
+T1003 LSASS Memory
+
+Windows Server：
+
+資格情報取得
+
+例：
+
+mimikatz
+
+
+取得：
+
+・管理者パスワード
+
+フェーズ8：内部偵察（Discovery）
+
+該当MITRE：
+
+T1046 Network Service Discovery
+
+攻撃者：
+
+内部スキャン
+
+対象：
+
+・DBサーバ
+・Windows Server
+
+例：
+
+nmap 192.168.x.x
+
+フェーズ9：横展開（Lateral Movement）
+
+該当MITRE：
+
+T1021.001 RDP
+T1021.002 SMB
+
+攻撃者：
+
+Windows Server侵入
+
+侵入先：
+
+仮想化サーバ
+
+さらに：
+
+DBサーバ侵入
+
+Oracle Database
+
+フェーズ10：情報収集（Collection）
+
+該当MITRE：
+
+T1213.006 Databases
+
+攻撃者：
+
+DB情報取得
+
+例：
+
+顧客データ
+
+フェーズ11：外部通信（Command and Control）
+
+該当MITRE：
+
+T1071.001 Web Protocols
+
+攻撃者：
+
+外部と通信
+
+HTTPS
+
+フェーズ12：情報窃取（Exfiltration）
+
+該当MITRE：
+
+T1567 Exfiltration Over Web Service
+
+攻撃者：
+
+データ送信
+
+フェーズ13：影響（Impact）
+
+該当MITRE：
+
+T1486 Data Encrypted for Impact
+
+ランサムウェア
+
+攻撃経路まとめ（今回の構成ベース）
+
+重要：
+
+最も現実的な侵入口：
+
+① WebLogic Server
+② VPN
+③ SRX320
+
+図ベースの侵入経路
+
+（あなたの図の赤線）
+
+インターネット
+
+↓
+
+SRX320
+
+↓
+
+WebLogic
+
+↓
+
+Windows Server
+
+↓
+
+DB Server
+
+侵害対象優先順位
+
+優先度高：
+
+① WebLogic Server
+② Windows Server
+③ Oracle Database
+
+報告書用まとめ（そのまま使用可能）
+
+本環境では、インターネットに公開されているWebサーバ（Oracle WebLogic Server）を起点とした侵入が最も現実的な攻撃経路として想定される。
+
+攻撃者はまず外部からポートスキャンおよび脆弱性スキャンを実施し、公開されているWebLogic Serverの脆弱性を悪用して侵入する可能性がある。
+
+侵入後はWebShellを設置し、内部ネットワークの探索を行い、Windows ServerやOracle Databaseへ横展開を行う。
+
+最終的にデータの窃取やランサムウェアによる暗号化などの被害が発生する可能性がある。
