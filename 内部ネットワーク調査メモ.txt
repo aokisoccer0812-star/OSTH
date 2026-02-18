@@ -1,0 +1,7 @@
+T1016、T1046、T1018、T1087.002
+ipconfig（IPアドレス確認）
+net view（共有サーバー確認）
+nltest /dclist（ドメインコントローラ確認）
+net group /domain（管理者アカウント確認）
+ping / arp / nslookup（他ホスト探索）
+netstat（通信先確認）
