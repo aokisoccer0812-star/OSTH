@@ -1,0 +1,226 @@
+﻿Front,Back,Tag
+Asset,資産,Risk
+Asset Value,資産価値,Risk
+Risk,リスク,Risk
+Threat,脅威,Risk
+Vulnerability,脆弱性,Risk
+Exposure,露出／曝露,Risk
+Exposure Factor,曝露係数,Risk
+Single Loss Expectancy,単一損失期待値,Risk
+Annualized Rate of Occurrence,年間発生率,Risk
+Annualized Loss Expectancy,年間損失期待値,Risk
+Likelihood,発生可能性,Risk
+Impact,影響,Risk
+Frequency,頻度,Risk
+Quantitative,定量的,Risk
+Qualitative,定性的,Risk
+Mitigation,緩和策,Risk
+Countermeasure,対策,Risk
+Residual Risk,残存リスク,Risk
+Acceptable Risk,許容リスク,Risk
+Business Impact Analysis,事業影響分析,Risk
+Cost Benefit Analysis,費用対効果分析,Risk
+Compliance,コンプライアンス／準拠,Risk
+Policy,方針／ポリシー,Risk
+Standard,標準,Risk
+Guideline,ガイドライン,Risk
+Procedure,手順,Risk
+Industrial Control System,産業制御システム,ICS
+Operational Technology,運用技術／OT,ICS
+Control System,制御システム,ICS
+Process Control,プロセス制御,ICS
+Controller,制御装置,ICS
+Sensor,センサー,ICS
+Actuator,アクチュエータ,ICS
+Motor,モーター,ICS
+Valve,バルブ,ICS
+Pump,ポンプ,ICS
+Programmable Logic Controller,PLC／プログラマブルロジックコントローラ,ICS
+Remote Terminal Unit,RTU／遠隔端末装置,ICS
+Human Machine Interface,HMI／ヒューマンマシンインターフェース,ICS
+Supervisory Control and Data Acquisition,SCADA／監視制御システム,ICS
+Historian,ヒストリアン／履歴データ保存サーバ,ICS
+Engineering Workstation,エンジニアリングワークステーション,ICS
+Operator Workstation,オペレータ端末,ICS
+Field Device,フィールド機器,ICS
+Instrumentation,計装,ICS
+Safety Instrumented System,SIS／安全計装システム,ICS
+Safety System,安全システム,ICS
+Fail-safe,フェイルセーフ,ICS
+Safe State,安全状態,ICS
+Availability,可用性,ICS
+Reliability,信頼性,ICS
+Deterministic,決定論的／予測可能な,ICS
+Real Time Operating System,RTOS／リアルタイムOS,ICS
+Purdue Model,パデューモデル,Purdue
+Enterprise,企業／エンタープライズ,Purdue
+Business Network,業務ネットワーク,Purdue
+Site Operations,サイト運用,Purdue
+Control Network,制御ネットワーク,Purdue
+Cell Area Zone,セル／エリアゾーン,Purdue
+Level 0,物理プロセス／センサー・アクチュエータ,Purdue
+Level 1,基本制御／PLC・RTU,Purdue
+Level 2,監視制御／HMI・SCADA,Purdue
+Level 3,製造・運用管理,Purdue
+Level 3.5,ICS DMZ,Purdue
+Level 4,ビジネスネットワーク,Purdue
+Level 5,エンタープライズネットワーク,Purdue
+Demilitarized Zone,DMZ／非武装地帯,Purdue
+Segmentation,セグメント分離,Purdue
+Zone,ゾーン,Purdue
+Conduit,通信経路,Purdue
+Boundary,境界,Purdue
+Trust Boundary,信頼境界,Purdue
+Air Gap,エアギャップ／物理的分離,Purdue
+Jump Host,踏み台サーバ,Purdue
+Patch Management Server,パッチ管理サーバ,Purdue
+Antivirus Update Server,ウイルス対策更新サーバ,Purdue
+Network,ネットワーク,Networking
+Firewall,ファイアウォール,Networking
+Router,ルーター,Networking
+Switch,スイッチ,Networking
+Hub,ハブ,Networking
+Bridge,ブリッジ,Networking
+Packet,パケット,Networking
+Frame,フレーム,Networking
+Protocol,プロトコル,Networking
+Port,ポート,Networking
+Broadcast,ブロードキャスト,Networking
+Multicast,マルチキャスト,Networking
+Unicast,ユニキャスト,Networking
+Ethernet,イーサネット,Networking
+Wireless,無線,Networking
+Carrier Signal,搬送波,Networking
+Modulation,変調,Networking
+Session,セッション,Networking
+Transport Layer,トランスポート層,Networking
+Network Layer,ネットワーク層,Networking
+Data Link Layer,データリンク層,Networking
+TCP,TCP,Networking
+UDP,UDP,Networking
+NAT,ネットワークアドレス変換,Networking
+Subnet,サブネット,Networking
+Gateway,ゲートウェイ,Networking
+Route,経路,Networking
+Routing,ルーティング,Networking
+VLAN,仮想LAN,Networking
+Access Control List,ACL／アクセス制御リスト,Networking
+Network Time Protocol,NTP／時刻同期プロトコル,Networking
+Stratum,階層／時刻源の階層,Networking
+Modbus,Modbus,Protocols
+Modbus TCP,TCP/IP上のModbus,Protocols
+Function Code,機能コード,Protocols
+Holding Register,保持レジスタ,Protocols
+OPC,OPC,Protocols
+OPC Server,OPCサーバ,Protocols
+DNP3,DNP3,Protocols
+PROFINET,PROFINET,Protocols
+EtherNet/IP,EtherNet/IP,Protocols
+Fieldbus,フィールドバス,Protocols
+Data Diode,データダイオード／一方向通信装置,Protocols
+Authentication,認証,Authentication
+Authorization,認可,Authentication
+Accounting,アカウンティング／記録,Authentication
+Credential,認証情報,Authentication
+Password,パスワード,Authentication
+Token,トークン,Authentication
+Certificate,証明書,Authentication
+Kerberos,Kerberos／チケットベース認証,Authentication
+Ticket,チケット,Authentication
+Directory,ディレクトリ,Authentication
+Domain,ドメイン,Authentication
+Active Directory,Active Directory,Authentication
+Trust Relationship,信頼関係,Authentication
+Identity,身元／アイデンティティ,Authentication
+User Account,ユーザーアカウント,Authentication
+Multi-factor Authentication,多要素認証,Authentication
+802.1X,ネットワークアクセス認証,Authentication
+EAP,拡張認証プロトコル,Authentication
+Confidentiality,機密性,Security
+Integrity,完全性,Security
+Non-repudiation,否認防止,Security
+Encryption,暗号化,Security
+Decryption,復号,Security
+Hash,ハッシュ,Security
+Digital Signature,電子署名,Security
+TLS,TLS／通信暗号化,Security
+Key,鍵,Security
+Public Key,公開鍵,Security
+Private Key,秘密鍵,Security
+Certificate Authority,認証局,Security
+Malware,マルウェア,Malware
+Virus,ウイルス,Malware
+Worm,ワーム／自己増殖型マルウェア,Malware
+Trojan,トロイの木馬,Malware
+Rootkit,ルートキット,Malware
+Ransomware,ランサムウェア,Malware
+Spyware,スパイウェア,Malware
+Backdoor,バックドア,Malware
+Payload,ペイロード,Malware
+Exploit,悪用コード／悪用する,Malware
+Boot Sector,ブートセクタ,Malware
+Propagation,拡散,Malware
+Command and Control,C2／指令制御,Malware
+Phishing,フィッシング,Attack
+Social Engineering,ソーシャルエンジニアリング,Attack
+Denial of Service,サービス拒否,Attack
+Reconnaissance,偵察,Attack
+Lateral Movement,横展開,Attack
+Privilege Escalation,権限昇格,Attack
+Exfiltration,持ち出し／流出,Attack
+Cross-Site Scripting,XSS／クロスサイトスクリプティング,Web
+Cross-Site Request Forgery,CSRF／クロスサイトリクエストフォージェリ,Web
+SQL Injection,SQLインジェクション,Web
+Input Validation,入力検証,Web
+Session Management,セッション管理,Web
+sqlmap,SQLインジェクション自動化ツール,Tools
+Nmap,ポートスキャンツール,Tools
+Wireshark,パケット解析ツール,Tools
+Log,ログ,Tools
+Alert,アラート,Tools
+Signature,シグネチャ,Tools
+Incident,インシデント,Incident Response
+Detection,検知,Incident Response
+Prevention,予防,Incident Response
+Response,対応,Incident Response
+Recovery,復旧,Incident Response
+Containment,封じ込め,Incident Response
+Eradication,根絶,Incident Response
+Forensics,フォレンジック,Incident Response
+Investigation,調査,Incident Response
+Escalation,エスカレーション,Incident Response
+Backup,バックアップ,Incident Response
+Restore,復元,Incident Response
+Evidence,証拠,Incident Response
+Timeline,タイムライン,Incident Response
+Root Cause,根本原因,Incident Response
+Lessons Learned,教訓,Incident Response
+Determine,判断する,Exam Verbs
+Assess,評価する,Exam Verbs
+Analyze,分析する,Exam Verbs
+Examine,調査する,Exam Verbs
+Identify,特定する,Exam Verbs
+Protect,保護する,Exam Verbs
+Prevent,防止する,Exam Verbs
+Detect,検知する,Exam Verbs
+Configure,設定する,Exam Verbs
+Implement,実装する,Exam Verbs
+Deploy,展開する,Exam Verbs
+Monitor,監視する,Exam Verbs
+Isolate,隔離する,Exam Verbs
+Verify,検証する,Exam Verbs
+Support,支援する,Exam Verbs
+Retrieve,取得する,Exam Verbs
+Enable,有効化する,Exam Verbs
+Disable,無効化する,Exam Verbs
+Maintain,維持する,Exam Verbs
+Require,要求する,Exam Verbs
+Provide,提供する,Exam Verbs
+Allow,許可する,Exam Verbs
+Deny,拒否する,Exam Verbs
+Establish,確立する,Exam Verbs
+Apply,適用する,Exam Verbs
+Ensure,確実にする,Exam Verbs
+Reduce,減らす,Exam Verbs
+Increase,増加させる,Exam Verbs
+Recommend,推奨する,Exam Verbs
