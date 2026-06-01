@@ -1,0 +1,280 @@
+﻿Front,Back,Tag
+mbtget,Modbus-TCPと通信するツール,Tool
+PROFIBUS,産業用フィールドバス,ICS
+HTTP traffic,HTTP通信トラフィック,Networking
+web-enabled HMI,Web対応HMI,ICS
+weak session management,脆弱なセッション管理,Security
+Modbus-TCP protocol,Modbus-TCPプロトコル,ICS
+tamper sensor,改ざん検知センサー,Security
+physical security control,物理セキュリティ管理策,Security
+deterrence,抑止,Security
+response,対応,Security
+prevention,防止,Security
+detection,検出,Security
+CSMA/CD,搬送波感知多重アクセス／衝突検出,Networking
+Layer 1 medium,レイヤ1媒体,Networking
+Ethernet,イーサネット,Networking
+Internet Protocol,インターネットプロトコル,Networking
+Demilitarized zone,DMZ／非武装地帯,ICS
+Safety zone,安全ゾーン,ICS
+Enforcement zone,執行ゾーン,Security
+Business zone,ビジネスゾーン,General
+zone boundaries,ゾーン境界,ICS
+centralize,集中化する,Verb
+shared,共有された,General
+ICS process model,ICSプロセスモデル,ICS
+Batch,バッチ,ICS
+Discrete,離散,ICS
+Continuous,連続,ICS
+temperature,温度,General
+chemicals,化学物質,General
+plastics,プラスチック,General
+configuration setting,設定内容,Networking
+permit tcp,TCP通信を許可する,Networking
+Network firewall,ネットワークファイアウォール,Networking
+NIDS,ネットワーク侵入検知システム,Security
+Application firewall,アプリケーションファイアウォール,Security
+SIEM,セキュリティ情報イベント管理,Security
+VSAT,VSAT衛星通信,Networking
+VPN support,VPNサポート,Networking
+fixed frequency range,固定周波数帯,Networking
+distance of communication,通信距離,Networking
+severe weather conditions,悪天候,General
+virtualization,仮想化,ICS
+system patching,システムのパッチ適用,General
+backups,バックアップ,General
+trust zones,信頼ゾーン,Security
+troubleshooting,障害対応,General
+monitoring,監視,General
+effective policy,効果的なポリシー,General
+achievable,達成可能な,General
+measurable,測定可能な,General
+directive,指示,General
+organizational values statement,組織の価値観の声明,General
+best practice,ベストプラクティス,General
+risk and compliance guidance,リスクとコンプライアンスの指針,Risk
+firewalls,ファイアウォール,Networking
+minimum,最小,General
+business network,ビジネスネットワーク,Networking
+control server network,制御サーバネットワーク,ICS
+Modbus RTU,Modbus RTU,ICS
+Modbus TCP,Modbus TCP,ICS
+transaction ID,トランザクションID,Networking
+IP header,IPヘッダー,Networking
+session,セッション,Security
+df -h,ディスク容量を表示するLinuxコマンド,OS
+filesystem,ファイルシステム,OS
+mounted partitions,マウント済みパーティション,OS
+disk space,ディスク容量,OS
+network reconnaissance,ネットワーク偵察,Security
+safe to run,実行しても安全な,General
+Wireshark,パケット解析ツール,Tool
+Nmap,ポートスキャンツール,Tool
+ping,疎通確認コマンド,Tool
+HMAP,HMAP,Tool
+centralized HMI,集中型HMI,ICS
+Purdue model,パデューモデル,ICS
+Level 0,物理プロセス層,ICS
+Level 1,基本制御層,ICS
+Level 2,監視制御層,ICS
+Level 3,運用管理層,ICS
+Level 4,ビジネス層,ICS
+boot sector,ブートセクタ,OS
+BIOS,BIOS,OS
+pagefile.sys,Windowsページファイル,OS
+RAM memory,RAMメモリ,OS
+filesystem slack space,ファイルシステムのスラック領域,OS
+EtherNet/IP,産業用Ethernetプロトコル,ICS
+broadcast UDP messages,UDPブロードキャストメッセージ,Networking
+I/O data,入出力データ,ICS
+BGAN,衛星通信サービス,Networking
+geostationary satellites,静止衛星,Networking
+types of service,サービス種別,General
+CDMA,CDMA,Networking
+GSM,GSM,Networking
+LTE,LTE,Networking
+remote connection,遠隔接続,Networking
+HMI workstation,HMIワークステーション,ICS
+clicked link,クリックされたリンク,General
+plant closed,プラント停止,ICS
+Cross-site request forgery,クロスサイトリクエストフォージェリ,Security
+Cross-site scripting,クロスサイトスクリプティング,Security
+Remote file inclusion,リモートファイルインクルージョン,Security
+SQL injection,SQLインジェクション,Security
+IPv6 addressing scheme,IPv6アドレス体系,Networking
+WirelessHART,産業用無線通信規格,ICS
+ISM band,ISM帯,Networking
+Bluetooth,Bluetooth,Networking
+ISA100.11a,産業用無線規格,ICS
+web-based HMI,WebベースHMI,ICS
+XSS,クロスサイトスクリプティング,Security
+CSRF,クロスサイトリクエストフォージェリ,Security
+LFI,ローカルファイルインクルージョン,Security
+single loss expectancy,単一損失期待値,Risk
+exposure factor,曝露係数,Risk
+asset value,資産価値,Risk
+RTOS,リアルタイムOS,OS
+system call efficiency,システムコール効率,OS
+kernel,カーネル,OS
+user space,ユーザー空間,OS
+embedded system,組込みシステム,ICS
+database security,データベースセキュリティ,Security
+client certificate,クライアント証明書,Security
+server connection,サーバ接続,Networking
+domain administrator,ドメイン管理者,Windows
+anti-spoofing rule,なりすまし防止ルール,Security
+source IP address,送信元IPアドレス,Networking
+Instrumentation LAN,計装LAN,ICS
+Control Devices LAN,制御機器LAN,ICS
+Supervisory Control LAN,監視制御LAN,ICS
+Operations Support DMZ,運用支援DMZ,ICS
+accurate timestamps,正確なタイムスタンプ,General
+geographically separated,地理的に離れた,General
+Windows Application log,Windowsアプリケーションログ,Windows
+LOGEVENT.EXE,イベントログ書き込みツール,Windows
+application developer,アプリケーション開発者,General
+System log,システムログ,Windows
+centralized SIEM solution,集中型SIEMソリューション,Security
+events,イベント,Security
+correlated,相関付けられた,Verb
+trends,傾向,General
+anomalies,異常,Security
+known attack traffic,既知の攻撃トラフィック,Security
+sensor data,センサーデータ,ICS
+safety process data,安全プロセスデータ,ICS
+NIST CSF,NISTサイバーセキュリティフレームワーク,Security
+Tier 1 Partial,ティア1 部分的,Security
+Tier 2 Risk Informed,ティア2 リスク情報に基づく,Security
+Tier 3 Repeatable,ティア3 反復可能,Security
+Tier 4 Adaptive,ティア4 適応的,Security
+iptables -F,iptablesルールを全消去するコマンド,OS
+firewall rules,ファイアウォールルール,Networking
+Remote Terminal Unit,遠隔端末装置,ICS
+field objects,フィールド機器,ICS
+SCADA system,SCADAシステム,ICS
+time server,タイムサーバ,Networking
+stratum level,階層レベル,Networking
+time source,時刻源,Networking
+machine-in-the-middle attacks,中間者攻撃,Security
+patch management servers,パッチ管理サーバ,ICS
+site-specific application servers,サイト固有アプリケーションサーバ,ICS
+PowerShell,PowerShell,Windows
+Get-Service,サービス情報取得コマンド,Windows
+Select-Object,オブジェクト選択コマンド,Windows
+Export-CSV,CSV出力コマンド,Windows
+name and status,名前と状態,General
+session hijacking,セッションハイジャック,Security
+denial of service,サービス拒否攻撃,Security
+privilege escalation,権限昇格,Security
+applicable ARO,適用される年間発生率,Risk
+Business Impact Analysis,事業影響分析,Risk
+maximum tolerable downtime,最大許容停止時間,Risk
+Business Continuity Plan,事業継続計画,Risk
+Disaster Recovery Plan,災害復旧計画,Risk
+router credentials,ルーター認証情報,Networking
+Authentication Bypass,認証回避,Security
+penetration tester,侵入テスト担当者,Security
+open port,開いているポート,Networking
+legacy RTU device,旧式RTU機器,ICS
+TCP/23,TCP 23番ポート,Networking
+telnet credentials,Telnet認証情報,Security
+device driver issue,デバイスドライバ問題,OS
+communication method,通信方法,General
+remote sites,遠隔拠点,Networking
+primary control center,主要制御センター,ICS
+Microwave,マイクロ波通信,Networking
+Kerberos,Kerberos認証,Security
+syslog,syslog,OS
+local events,ローカルイベント,OS
+field devices,フィールド機器,ICS
+utility script,ユーティリティスクリプト,OS
+monthly,毎月の,General
+log collection and audit,ログ収集と監査,OS
+configuration monitoring,設定監視,OS
+baseline image testing,ベースラインイメージ検査,OS
+patch management,パッチ管理,General
+mobile device encryption policy,モバイルデバイス暗号化ポリシー,Security
+full disk encryption,フルディスク暗号化,Security
+BitLocker,BitLocker,Windows
+information security concept,情報セキュリティ概念,Security
+non-repudiation,否認防止,Security
+integrity,完全性,Security
+confidentiality,機密性,Security
+availability,可用性,Security
+UDP,UDP,Networking
+Layer 4 Transport,レイヤ4 トランスポート層,Networking
+risk analysis values,リスク分析値,Risk
+Annualized Loss Expectancy,年間損失期待値,Risk
+cryptographic keys,暗号鍵,Security
+transmitted by hardware,ハードウェアにより送信される,Security
+FET transistors,FETトランジスタ,Hardware
+entropy levels,エントロピーレベル,Security
+secedit.exe,Windowsセキュリティテンプレート適用ツール,Windows
+security policies,セキュリティポリシー,Security
+Active Directory domain,Active Directoryドメイン,Windows
+Windows Server Update Services,WSUS,Windows
+Procedure,手順書,General
+Standard,標準,General
+Policy,ポリシー,General
+Guideline,ガイドライン,General
+firmware upgrade,ファームウェア更新,ICS
+WEP-protected wireless network,WEP保護の無線ネットワーク,Security
+brute-force,総当たり攻撃,Security
+SSH traffic,SSH通信,Networking
+plaintext telnet credentials,平文Telnet認証情報,Security
+Project Files,プロジェクトファイル,ICS
+Front End Processor,フロントエンドプロセッサ,ICS
+Human Machine Interface,ヒューマンマシンインターフェース,ICS
+Historian,ヒストリアン,ICS
+Programmable Logic Controller,プログラマブルロジックコントローラ,ICS
+screen saver,スクリーンセーバー,Windows
+local security policy,ローカルセキュリティポリシー,Windows
+domain based policy,ドメインベースポリシー,Windows
+broadcast traffic,ブロードキャスト通信,Networking
+Router,ルーター,Networking
+Switch,スイッチ,Networking
+Hub,ハブ,Networking
+Bridge,ブリッジ,Networking
+PERA,Purdue Enterprise Reference Architecture,ICS
+site-wide operations,サイト全体の運用,ICS
+ultimate responsibility,最終責任,General
+integrators,インテグレーター,General
+Asset owners,資産所有者,Risk
+Government entities,政府機関,General
+Vendor partners,ベンダーパートナー,General
+sha1sum,SHA1ハッシュ計算コマンド,OS
+same contents,同じ内容,General
+TLS,TLS／通信暗号化,Security
+C-I-A model,機密性・完全性・可用性モデル,Security
+DHS patch decision tree,DHSパッチ判断ツリー,Security
+vulnerability footprint,脆弱性の影響範囲,Security
+work-around available,回避策が利用可能,General
+simple proxies,単純なプロキシ,Networking
+Active Directory domains,Active Directoryドメイン,Windows
+physical security defense,物理セキュリティ防御,Security
+hidden cameras,隠しカメラ,Security
+audible alarms,可聴アラーム,Security
+bright lighting,明るい照明,Security
+PowerShell Measure-Object,PowerShellの集計コマンド,Windows
+WMI objects,WMIオブジェクト,Windows
+Select-String,文字列検索,Windows
+unsigned 16-bit integer,符号なし16ビット整数,Programming
+USB capture data,USBキャプチャデータ,Tool
+Modbus serial data,Modbusシリアルデータ,ICS
+leftover capture data,残存キャプチャデータ,Tool
+Unit ID,ユニットID,ICS
+Read Function,読み取り機能,ICS
+Start Address,開始アドレス,ICS
+Num to Read,読み取り数,ICS
+CRC,巡回冗長検査,Networking
+strings command,文字列抽出コマンド,OS
+offset,オフセット,OS
+grep,文字列検索コマンド,OS
+SQL injection login,SQLインジェクションログイン,Security
+comment sequence,コメントシーケンス,Programming
+password field,パスワード欄,General
+Modbus directors,Modbus通信を開始する側,ICS
+packet capture,パケットキャプチャ,Tool
+openssl,OpenSSL,Tool
+sha512 digest,SHA-512ダイジェスト,Security
+hmac,鍵付きハッシュ,Security

@@ -1,0 +1,178 @@
+﻿Front,Back,Tag
+organization,組織,General
+vulnerable,脆弱な,Security
+CVE,共通脆弱性識別子,Security
+Metasploit,Metasploit攻撃フレームワーク,Tool
+module,モジュール,General
+exploit,悪用する／エクスプロイト,Security
+vulnerability,脆弱性,Security
+automated,自動化された,General
+increased,増加した,General
+decreased,減少した,General
+remained,維持された,General
+guideline,ガイドライン,General
+secure,安全な,General
+ICS network architecture,ICSネットワークアーキテクチャ,ICS
+Enterprise Active Directory,企業側Active Directory,Windows
+Business Network,ビジネスネットワーク,Networking
+traffic,通信トラフィック,Networking
+DMZ,非武装地帯,ICS
+patch management server,パッチ管理サーバ,ICS
+password,パスワード,Security
+recommended practice,推奨プラクティス,General
+customer-based complexity,顧客ごとの複雑性,General
+distributed credential storage,分散認証情報ストレージ,Security
+management,管理,General
+Purdue Enterprise Reference Architecture,PERA／パデューモデル,ICS
+site-wide operation,サイト全体の運用,ICS
+air-gapped system,エアギャップシステム,Security
+phishing attack,フィッシング攻撃,Security
+fuzzing attack,ファジング攻撃,Security
+ARP spoofing attack,ARPスプーフィング攻撃,Security
+USB thumb drive,USBメモリ,General
+malware,マルウェア,Security
+USV,無人水上艇,ICS
+velocity,速度,General
+throttle,スロットル,General
+Fuzzy logic,ファジィロジック,ICS
+Sequential function block,シーケンシャルファンクションブロック,ICS
+PID loop,PIDループ,ICS
+Ladder logic,ラダーロジック,ICS
+Instruction list,命令リスト,ICS
+virtualization,仮想化,ICS
+troubleshooting,トラブルシューティング,General
+monitoring,監視,General
+patching,パッチ適用,General
+backups,バックアップ,General
+trust zones,信頼ゾーン,Security
+deterrence,抑止,Security
+physical security,物理セキュリティ,Security
+walk-down,巡回点検,General
+hidden cameras,隠しカメラ,Security
+bright lighting,明るい照明,Security
+audible alarms,可聴アラーム,Security
+modulation,変調,Networking
+carrier signals,搬送波信号,Networking
+RF antennas,RFアンテナ,Networking
+digital data,デジタルデータ,General
+transmission,送信,Networking
+NAT,ネットワークアドレス変換,Networking
+ACL,アクセス制御リスト,Networking
+DNS,DNS,Networking
+DHCP,DHCP,Networking
+DHS patch decision tree,DHSパッチ判断ツリー,Security
+work-around,回避策,General
+business needs,ビジネス上の必要性,General
+operations,運用,General
+IEEE standard,IEEE標準,Networking
+802.1X,ネットワーク認証規格,Networking
+EAP,拡張認証プロトコル,Networking
+reactor,原子炉,ICS
+nuclear power plant,原子力発電所,ICS
+HMI,ヒューマンマシンインターフェース,ICS
+Purdue level,Purdueレベル,ICS
+Instrumentation LAN,計装LAN,ICS
+Control Devices LAN,制御機器LAN,ICS
+Supervisory Control LAN,監視制御LAN,ICS
+Operations Support DMZ,運用支援DMZ,ICS
+Historian Server,ヒストリアンサーバ,ICS
+anti-spoofing rule,なりすまし防止ルール,Security
+source IP address,送信元IPアドレス,Networking
+CWE,共通脆弱性タイプ一覧,Security
+CVSS,脆弱性評価スコア,Security
+TTP,戦術・技術・手順,Security
+safety system,安全システム,ICS
+SIS,安全計装システム,ICS
+DCS,分散制御システム,ICS
+fail-safe shutdown,フェイルセーフ停止,ICS
+hazardous materials,危険物質,ICS
+VSAT,衛星通信方式,Networking
+WirelessHART,産業用無線通信規格,ICS
+Zigbee,無線通信規格,Networking
+authentication bypass,認証回避,Security
+weak session management,脆弱なセッション管理,Security
+unencrypted connection,暗号化されていない接続,Security
+TCP port 80,TCP 80番ポート,Networking
+alphabetical password,アルファベット順パスワード,Security
+outdated browser,古いブラウザ,Security
+asset owner,資産所有者,Risk
+government entities,政府機関,General
+vendor partners,ベンダーパートナー,General
+asset value,資産価値,Risk
+exposure factor,曝露係数,Risk
+Single Loss Expectancy,単一損失期待値,Risk
+Annualized Loss Expectancy,年間損失期待値,Risk
+NERC CIP fine,NERC CIP罰金,Risk
+NTP,時刻同期プロトコル,Networking
+Stratum 0,NTP階層0／原子時計,Networking
+atomic clock,原子時計,Networking
+PLC,プログラマブルロジックコントローラ,ICS
+polling rate,ポーリングレート,ICS
+likelihood,発生可能性,Risk
+frequency,頻度,Risk
+Quantitative risk assessment,定量的リスク評価,Risk
+Qualitative risk assessment,定性的リスク評価,Risk
+threat impact,脅威の影響,Risk
+loss computation,損失計算,Risk
+CIA model,機密性・完全性・可用性モデル,Security
+confidentiality,機密性,Security
+integrity,完全性,Security
+availability,可用性,Security
+encryption,暗号化,Security
+Culture of Compliance,コンプライアンス文化,General
+leadership,リーダーシップ,General
+Gap Assessment,ギャップ評価,Risk
+RTOS,リアルタイムOS,OS
+buffer overflow,バッファオーバーフロー,Security
+embedded system firmware,組込みシステムファームウェア,ICS
+integrated SIS,統合SIS,ICS
+equipment costs,装置コスト,ICS
+Microkernel OS,マイクロカーネルOS,OS
+IPC,プロセス間通信,OS
+virtual memory,仮想メモリ,OS
+Server OS,サーバOS,OS
+device drivers,デバイスドライバ,OS
+file services,ファイルサービス,OS
+incident response team,インシデント対応チーム,Security
+unauthorized port scans,不正なポートスキャン,Security
+network hosts,ネットワークホスト,Networking
+worm,ワーム,Security
+rootkit,ルートキット,Security
+Safe state,安全状態,ICS
+Recovery mode,復旧モード,ICS
+Fail state,障害状態,ICS
+Ready state,準備完了状態,ICS
+ACL comparison,ACL比較,Networking
+access-list,アクセスリスト,Networking
+permit tcp,TCP許可,Networking
+telnet,Telnet,Networking
+https,HTTPS,Networking
+smtp,SMTP,Networking
+digital signature,電子署名,Security
+non-repudiation,否認防止,Security
+effective policy,効果的なポリシー,General
+measurable directive,測定可能な指示,General
+organizational values,組織の価値観,General
+risk and compliance guidance,リスクとコンプライアンスの指針,General
+Group Policy Object,グループポリシーオブジェクト,Windows
+Organizational Unit,組織単位,Windows
+domain,ドメイン,Windows
+forest,フォレスト,Windows
+log collection,ログ収集,OS
+audit,監査,General
+baseline image testing,ベースラインイメージ検査,OS
+boot sector,ブートセクタ,OS
+BIOS,BIOS,OS
+OSI model,OSI参照モデル,Networking
+Transport layer,トランスポート層,Networking
+Presentation layer,プレゼンテーション層,Networking
+Network layer,ネットワーク層,Networking
+Data Link layer,データリンク層,Networking
+transparent ICS firewall,透過型ICSファイアウォール,ICS
+controller boundary,コントローラ境界,ICS
+local security policies,ローカルセキュリティポリシー,Windows
+system owner,システム所有者,General
+guideline document,ガイドライン文書,General
+standard document,標準文書,General
+policy document,ポリシー文書,General
+procedure document,手順書,General
