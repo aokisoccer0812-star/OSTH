@@ -1,0 +1,113 @@
+﻿Front,Back,Tag
+mbtget,Modbus-TCPと通信するツール,Tool
+PROFIBUS,産業用フィールドバス規格,ICS
+HMI,ヒューマンマシンインターフェース,ICS
+tamper sensor,改ざん検知センサー,Security
+deterrence,抑止,Security
+prevention,防止,Security
+detection,検出,Security
+response,対応,Security
+CSMA/CD,衝突検出方式,Networking
+Ethernet,イーサネット,Networking
+DMZ,非武装地帯,ICS
+Safety Zone,安全ゾーン,ICS
+Business Zone,ビジネスゾーン,ICS
+Continuous Process,連続プロセス,ICS
+Batch Process,バッチプロセス,ICS
+Discrete Process,離散プロセス,ICS
+Firewall,ファイアウォール,Security
+NIDS,ネットワーク侵入検知システム,Security
+SIEM,ログを相関分析する仕組み,Security
+VSAT,衛星通信システム,Networking
+Virtualization,仮想化,General
+Policy,方針・ポリシー,Exam
+Achievable,達成可能な,Exam
+Measurable,測定可能な,Exam
+Directive,指示,Exam
+Modbus RTU,シリアル版Modbus,ICS
+Modbus TCP,TCP/IP版Modbus,ICS
+Transaction ID,トランザクションID,Networking
+df -h,ディスク使用量表示コマンド,Linux
+Filesystem,ファイルシステム,Linux
+Wireshark,パケット解析ツール,Tool
+Nmap,ポートスキャンツール,Tool
+Purdue Model,ICS階層モデル,ICS
+Level 0,物理プロセス層,ICS
+Level 1,基本制御層,ICS
+Level 2,監視制御層,ICS
+Level 3,運用管理層,ICS
+Level 4,ビジネス層,ICS
+Boot Sector,ブートセクタ,OS
+EtherNet/IP,産業用Ethernet通信,ICS
+BGAN,衛星通信サービス,Networking
+CSRF,クロスサイトリクエストフォージェリ,Security
+XSS,クロスサイトスクリプティング,Security
+SQL Injection,SQLインジェクション,Security
+LFI,ローカルファイルインクルージョン,Security
+SLE,単一損失期待値,Risk
+Exposure Factor,曝露係数,Risk
+RTOS,リアルタイムOS,OS
+Kernel,カーネル,OS
+Client Certificate,クライアント証明書,Security
+Anti-spoofing,なりすまし対策,Security
+Instrumentation LAN,計装LAN,ICS
+Control Devices LAN,制御機器LAN,ICS
+Supervisory Control LAN,監視制御LAN,ICS
+Historian,履歴データ保存サーバ,ICS
+Application Log,アプリケーションログ,Windows
+System Log,システムログ,Windows
+Correlate,相関付ける,ExamVerb
+Anomaly,異常,Security
+NIST CSF,NISTサイバーセキュリティフレームワーク,Security
+Tier 1 Partial,ティア1,Security
+Tier 2 Risk Informed,ティア2,Security
+Tier 3 Repeatable,ティア3,Security
+Tier 4 Adaptive,ティア4,Security
+iptables -F,iptablesルール全削除,Linux
+RTU,遠隔端末装置,ICS
+Stratum,時刻同期階層,Networking
+Machine in the Middle,中間者攻撃,Security
+Patch Management,パッチ管理,Security
+PowerShell,PowerShell,Windows
+Get-Service,サービス一覧取得,Windows
+Select-Object,項目選択,Windows
+Export-CSV,CSV出力,Windows
+Session Hijacking,セッションハイジャック,Security
+Denial of Service,サービス拒否攻撃,Security
+Privilege Escalation,権限昇格,Security
+BIA,事業影響分析,Risk
+BCP,事業継続計画,Risk
+DRP,災害復旧計画,Risk
+Authentication Bypass,認証回避,Security
+Telnet,Telnet,Networking
+Kerberos,Kerberos認証,Security
+Syslog,ログ収集プロトコル,Security
+BitLocker,ディスク暗号化機能,Windows
+Non-repudiation,否認防止,Security
+Integrity,完全性,Security
+Confidentiality,機密性,Security
+Availability,可用性,Security
+ALE,年間損失期待値,Risk
+WSUS,Windows Server Update Services,Windows
+Procedure,手順書,Governance
+Standard,標準,Governance
+Guideline,ガイドライン,Governance
+PLC,プログラマブルロジックコントローラ,ICS
+Front End Processor,フロントエンドプロセッサ,ICS
+Router,ルーター,Networking
+Switch,スイッチ,Networking
+Bridge,ブリッジ,Networking
+Asset Owner,資産所有者,Risk
+TLS,通信暗号化プロトコル,Security
+SHA1,SHA1ハッシュ,Security
+Workaround,回避策,Exam
+Determine,判断する,ExamVerb
+Identify,特定する,ExamVerb
+Describe,説明する,ExamVerb
+Recommend,推奨する,ExamVerb
+Assess,評価する,ExamVerb
+Analyze,分析する,ExamVerb
+Implement,実装する,ExamVerb
+Mitigate,軽減する,ExamVerb
+Verify,検証する,ExamVerb
+Maintain,維持する,ExamVerb
