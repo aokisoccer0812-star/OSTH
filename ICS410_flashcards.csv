@@ -1,0 +1,234 @@
+﻿Front,Back,Tag
+Asset,資産,Risk
+Asset Value,資産価値,Risk
+Threat,脅威,Risk
+Vulnerability,脆弱性,Risk
+Exposure,露出／曝露,Risk
+Exposure Factor,曝露係数,Risk
+Single Loss Expectancy,単一損失期待値,Risk
+Annualized Rate of Occurrence,年間発生率,Risk
+Annualized Loss Expectancy,年間損失期待値,Risk
+Likelihood,発生可能性,Risk
+Impact,影響,Risk
+Frequency,頻度,Risk
+Quantitative,定量的,Risk
+Qualitative,定性的,Risk
+Mitigation,緩和策,Risk
+Countermeasure,対策,Risk
+Residual Risk,残存リスク,Risk
+Acceptable Risk,許容リスク,Risk
+Business Impact Analysis,事業影響分析,Risk
+Cost Benefit Analysis,費用対効果分析,Risk
+Compliance,コンプライアンス／準拠,Risk
+Policy,方針／ポリシー,Risk
+Standard,標準,Risk
+Procedure,手順,Risk
+SLE,単一損失期待値,Risk
+Exposure Factor,曝露係数,Risk
+BIA,事業影響分析,Risk
+BCP,事業継続計画,Risk
+DRP,災害復旧計画,Risk
+ALE,年間損失期待値,Risk
+Asset Owner,資産所有者,Risk
+Industrial Control System,産業制御システム,ICS
+Operational Technology,運用技術／OT,ICS
+Control System,制御システム,ICS
+Process Control,プロセス制御,ICS
+Controller,制御装置,ICS
+Actuator,アクチュエータ,ICS
+Programmable Logic Controller,PLC／プログラマブルロジックコントローラ,ICS
+Remote Terminal Unit,RTU／遠隔端末装置,ICS
+Human Machine Interface,HMI／ヒューマンマシンインターフェース,ICS
+Supervisory Control and Data Acquisition,SCADA／監視制御システム,ICS
+Historian,ヒストリアン／履歴データ保存サーバ,ICS
+Engineering Workstation,エンジニアリングワークステーション,ICS
+Operator Workstation,オペレータ端末,ICS
+Field Device,フィールド機器,ICS
+Instrumentation,計装,ICS
+Safety Instrumented System,SIS／安全計装システム,ICS
+Safety System,安全システム,ICS
+Fail-safe,フェイルセーフ,ICS
+Safe State,安全状態,ICS
+Availability,可用性,ICS
+Reliability,信頼性,ICS
+Deterministic,決定論的／予測可能な,ICS
+Real Time Operating System,RTOS／リアルタイムOS,ICS
+PLC,プログラマブルロジックコントローラ,ICS
+Front End Processor,フロントエンドプロセッサ,ICS
+PROFIBUS,産業用フィールドバス規格,ICS
+HMI,ヒューマンマシンインターフェース,ICS
+DMZ,非武装地帯,ICS
+Safety Zone,安全ゾーン,ICS
+Business Zone,ビジネスゾーン,ICS
+Continuous Process,連続プロセス,ICS
+Batch Process,バッチプロセス,ICS
+Discrete Process,離散プロセス,ICS
+Purdue Model,ICS階層モデル,ICS
+Level 0,物理プロセス層,ICS
+Level 1,基本制御層,ICS
+Level 2,監視制御層,ICS
+Level 3,運用管理層,ICS
+Level 4,ビジネス層,ICS
+EtherNet/IP,産業用Ethernet通信,ICS
+Modbus RTU,シリアル版Modbus,ICS
+Modbus TCP,TCP/IP版Modbus,ICS
+Instrumentation LAN,計装LAN,ICS
+Control Devices LAN,制御機器LAN,ICS
+Supervisory Control LAN,監視制御LAN,ICS
+Historian,履歴データ保存サーバ,ICS
+RTU,遠隔端末装置,ICS
+Purdue Model,パデューモデル,Purdue
+Enterprise,企業／エンタープライズ,Purdue
+Business Network,業務ネットワーク,Purdue
+Site Operations,サイト運用,Purdue
+Control Network,制御ネットワーク,Purdue
+Cell Area Zone,セル／エリアゾーン,Purdue
+Level 0,物理プロセス／センサー・アクチュエータ,Purdue
+Level 1,基本制御／PLC・RTU,Purdue
+Level 2,監視制御／HMI・SCADA,Purdue
+Level 3,製造・運用管理,Purdue
+Level 3.5,ICS DMZ,Purdue
+Level 4,ビジネスネットワーク,Purdue
+Level 5,エンタープライズネットワーク,Purdue
+Demilitarized Zone,DMZ／非武装地帯,Purdue
+Segmentation,セグメント分離,Purdue
+Conduit,通信経路,Purdue
+Boundary,境界,Purdue
+Trust Boundary,信頼境界,Purdue
+Air Gap,エアギャップ／物理的分離,Purdue
+Jump Host,踏み台サーバ,Purdue
+Patch Management Server,パッチ管理サーバ,Purdue
+Antivirus Update Server,ウイルス対策更新サーバ,Purdue
+Wireless,無線,Networking
+Carrier Signal,搬送波,Networking
+Modulation,変調,Networking
+Access Control List,ACL／アクセス制御リスト,Networking
+Network Time Protocol,NTP／時刻同期プロトコル,Networking
+Stratum,階層／時刻源の階層,Networking
+BGAN,衛星通信サービス,Networking
+Stratum,時刻同期階層,Networking
+CSMA/CD,衝突検出方式,Networking
+VSAT,衛星通信システム,Networking
+Transaction ID,トランザクションID,Networking
+Modbus TCP,TCP/IP上のModbus,Protocols
+Function Code,機能コード,Protocols
+Holding Register,保持レジスタ,Protocols
+Data Diode,データダイオード／一方向通信装置,Protocols
+Authentication,認証,Authentication
+Authorization,認可,Authentication
+Accounting,アカウンティング／記録,Authentication
+Credential,認証情報,Authentication
+Certificate,証明書,Authentication
+Kerberos,Kerberos／チケットベース認証,Authentication
+Trust Relationship,信頼関係,Authentication
+Identity,身元／アイデンティティ,Authentication
+Multi-factor Authentication,多要素認証,Authentication
+802.1X,ネットワークアクセス認証,Authentication
+EAP,拡張認証プロトコル,Authentication
+Confidentiality,機密性,Security
+Integrity,完全性,Security
+Availability,可用性,Security
+Non-repudiation,否認防止,Security
+Encryption,暗号化,Security
+Decryption,復号,Security
+Digital Signature,電子署名,Security
+Public Key,公開鍵,Security
+Private Key,秘密鍵,Security
+Authentication Bypass,認証回避,Security
+Certificate Authority,認証局,Security
+NIDS,ネットワーク侵入検知システム,Security
+SIEM,ログを相関分析する仕組み,Security
+tamper sensor,改ざん検知センサー,Security
+deterrence,抑止,Security
+prevention,防止,Security
+detection,検出,Security
+response,対応,Security
+CSRF,クロスサイトリクエストフォージェリ,Security
+XSS,クロスサイトスクリプティング,Security
+SQL Injection,SQLインジェクション,Security
+LFI,ローカルファイルインクルージョン,Security
+Machine in the Middle,中間者攻撃,Security
+Patch Management,パッチ管理,Security
+Client Certificate,クライアント証明書,Security
+Anti-spoofing,なりすまし対策,Security
+Anomaly,異常,Security
+NIST CSF,NISTサイバーセキュリティフレームワーク,Security
+Tier 1 Partial,ティア1,Security
+Tier 2 Risk Informed,ティア2,Security
+Tier 3 Repeatable,ティア3,Security
+Tier 4 Adaptive,ティア4,Security
+Session Hijacking,セッションハイジャック,Security
+Denial of Service,サービス拒否攻撃,Security
+Privilege Escalation,権限昇格,Security
+TLS,通信暗号化プロトコル,Security
+Exploit,悪用コード／悪用する,Malware
+Boot Sector,ブートセクタ,Malware
+Propagation,拡散,Malware
+Command and Control,C2／指令制御,Malware
+Social Engineering,ソーシャルエンジニアリング,Attack
+Denial of Service,サービス拒否,Attack
+Reconnaissance,偵察,Attack
+Lateral Movement,横展開,Attack
+Privilege Escalation,権限昇格,Attack
+Exfiltration,持ち出し／流出,Attack
+Detection,検知,Incident Response
+Prevention,予防,Incident Response
+Response,対応,Incident Response
+Recovery,復旧,Incident Response
+Containment,封じ込め,Incident Response
+Eradication,根絶,Incident Response
+Investigation,調査,Incident Response
+Restore,復元,Incident Response
+Evidence,証拠,Incident Response
+Root Cause,根本原因,Incident Response
+Lessons Learned,教訓,Incident Response
+Determine,判断する,Exam Verbs
+Assess,評価する,Exam Verbs
+Analyze,分析する,Exam Verbs
+Examine,調査する,Exam Verbs
+Identify,特定する,Exam Verbs
+Protect,保護する,Exam Verbs
+Prevent,防止する,Exam Verbs
+Detect,検知する,Exam Verbs
+Configure,設定する,Exam Verbs
+Implement,実装する,Exam Verbs
+Deploy,展開する,Exam Verbs
+Monitor,監視する,Exam Verbs
+Isolate,隔離する,Exam Verbs
+Verify,検証する,Exam Verbs
+Support,支援する,Exam Verbs
+Retrieve,取得する,Exam Verbs
+Enable,有効化する,Exam Verbs
+Disable,無効化する,Exam Verbs
+Maintain,維持する,Exam Verbs
+Require,要求する,Exam Verbs
+Provide,提供する,Exam Verbs
+Allow,許可する,Exam Verbs
+Deny,拒否する,Exam Verbs
+Establish,確立する,Exam Verbs
+Apply,適用する,Exam Verbs
+Ensure,確実にする,Exam Verbs
+Reduce,減らす,Exam Verbs
+Increase,増加させる,Exam Verbs
+Recommend,推奨する,Exam Verbs
+Workaround,回避策,Exam Verbs
+Mitigate,軽減する,Exam Verbs
+Policy,方針・ポリシー,Exam Verbs
+Achievable,達成可能な,Exam Verbs
+Measurable,測定可能な,Exam Verbs
+Directive,指示,Exam Verbs
+Correlate,相関付ける,Exam Verbs
+Virtualization,仮想化,General
+RTOS,リアルタイムOS,OS
+Boot Sector,ブートセクタ,OS
+Get-Service,サービス一覧取得,Windows
+Select-Object,項目選択,Windows
+Export-CSV,CSV出力,Windows
+WSUS,Windows Server Update Services,Windows
+BitLocker,ディスク暗号化機能,Windows
+iptables -F,iptablesルール全削除,Linux
+df -h,ディスク使用量表示コマンド,Linux
+Input Validation,入力検証,Web
+Session Management,セッション管理,Web
+sqlmap,SQLインジェクション自動化ツール,Tools
+mbtget,Modbus-TCPと通信するツール,Tools
