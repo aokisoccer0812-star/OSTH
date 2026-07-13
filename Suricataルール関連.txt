@@ -1,0 +1,16 @@
+＜参考情報＞
+
+
+□Emerging Threats Rules (ET Rules)はインターネットで公開されているOpenのルール（添付PDF参照）には、例えば、次のようなルールも格納されています。
+　・Cobalt Strike関連ルール
+　・Sliver関連ルール
+　・Mimikatz関連ルール
+　・China Chopper関連ルール
+　・Impacket関連ルール
+　・BlackTechやAPT41といった攻撃者名が付記されたルール
+
+
+□VShellのSuricataルールについては、NVISOのレポート（レポート末尾）に記載があります。
+
+
+※YARAルールについては「InQuest/awesome-yara」GitHub等、Sigmaルールについては「SigmaHQ」GitHub等を併せてご確認ください。
